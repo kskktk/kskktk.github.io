@@ -4,104 +4,210 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ドメイン実務 | 大阪工業大学 PBL</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <style>
+    .hero-body { padding: 4rem 1.5rem; }
+    .box:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.12); }
+    .material-box { transition: transform 0.2s, box-shadow 0.2s; }
+    .material-box:hover { transform: translateY(-2px); }
+    .tag-format { font-size: 0.7rem; }
+  </style>
 </head>
 <body>
-  <div class="container py-5">
-    <h1>知的財産分野から考えるドメイン実務</h1>
-    <p>大阪工業大学 知的財産学部 PBL「コンテンツ知的財産探求」2025</p>
-    <p>担当：香月 啓佑（keisukekatsuki@gmail.com）</p>
+  <section class="hero is-link is-medium">
+    <div class="hero-body">
+      <div class="container">
+        <p class="title is-1">知的財産分野から考えるドメイン実務</p>
+        <p class="subtitle is-4">大阪工業大学 知的財産学部 PBL「コンテンツ知的財産探求」2025</p>
+        <p class="is-size-6">担当：香月 啓佑（keisukekatsuki@gmail.com）</p>
+      </div>
+    </div>
+  </section>
 
-    <h2>タイムテーブル</h2>
-    <table class="table">
-      <tbody>
-        <tr><td>13:30–13:40</td><td>オープニング（目的共有）</td><td>10分</td></tr>
-        <tr><td>13:40–13:55</td><td>学生自己紹介（14名×40秒）</td><td>15分</td></tr>
-        <tr><td>13:55–14:25</td><td>講師自己紹介</td><td>30分</td></tr>
-        <tr><td>14:25–14:45</td><td>価値観カード（チーム形成）</td><td>20分</td></tr>
-        <tr><td>14:45–14:55</td><td>休憩</td><td>10分</td></tr>
-        <tr><td>14:55–15:35</td><td>レクチャー：ドメイン基礎</td><td>40分</td></tr>
-        <tr><td>15:35–16:20</td><td>演習：ドメイン設計</td><td>45分</td></tr>
-        <tr><td>16:20–16:35</td><td>共有（各チーム2分×3）</td><td>15分</td></tr>
-        <tr><td>16:35–16:42</td><td>チェックリスト配布・説明</td><td>7分</td></tr>
-        <tr><td>16:42–16:50</td><td>ミニテスト（回収・終了）</td><td>8分</td></tr>
-      </tbody>
-    </table>
+  <section class="section">
+    <div class="container">
+      <div class="columns is-variable is-8">
+        <div class="column is-7">
+          <h2 class="title is-3 mb-5">タイムテーブル</h2>
+          <div class="box">
+            <table class="table is-fullwidth is-hoverable">
+              <tbody>
+                <tr><td><strong>13:30–13:40</strong></td><td>オープニング（目的共有）</td><td class="has-text-right has-text-grey">10分</td></tr>
+                <tr><td><strong>13:40–13:55</strong></td><td>学生自己紹介（14名×40秒）</td><td class="has-text-right has-text-grey">15分</td></tr>
+                <tr><td><strong>13:55–14:25</strong></td><td>講師自己紹介</td><td class="has-text-right has-text-grey">30分</td></tr>
+                <tr><td><strong>14:25–14:45</strong></td><td>価値観カード（チーム形成）</td><td class="has-text-right has-text-grey">20分</td></tr>
+                <tr class="has-text-grey"><td><strong>14:45–14:55</strong></td><td>休憩</td><td class="has-text-right">10分</td></tr>
+                <tr><td><strong>14:55–15:35</strong></td><td>レクチャー：ドメイン基礎</td><td class="has-text-right has-text-grey">40分</td></tr>
+                <tr><td><strong>15:35–16:20</strong></td><td>演習：ドメイン設計</td><td class="has-text-right has-text-grey">45分</td></tr>
+                <tr><td><strong>16:20–16:35</strong></td><td>共有（各チーム2分×3）</td><td class="has-text-right has-text-grey">15分</td></tr>
+                <tr><td><strong>16:35–16:42</strong></td><td>チェックリスト配布・説明</td><td class="has-text-right has-text-grey">7分</td></tr>
+                <tr><td><strong>16:42–16:50</strong></td><td>ミニテスト（回収・終了）</td><td class="has-text-right has-text-grey">8分</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
 
-    <h2>資料</h2>
-    <ul class="list-group">
-      <li class="list-group-item"><a href="slides.html" target="_blank">スライド</a> - レクチャー用スライド（ブラウザで閲覧）</li>
-      <li class="list-group-item"><a href="https://padlet.com/keisukekatsuki/padlet-mldp4vhhtbqjq5x3" target="_blank">コメント・質問</a> - 授業中の質問・コメントはこちら（Padlet）</li>
-      <li class="list-group-item"><a href="https://drive.google.com/drive/u/0/folders/1KBi90LLk4Ynd8u7Ms-Vpo-kUH-uqh6-P" target="_blank">演習ワークシート</a> - チームで取り組むドメイン設計演習</li>
-      <li class="list-group-item"><a href="checklist.html" target="_blank">ドメイン管理チェックリスト</a> - 取得後の運用で確認すべき項目</li>
-      <li class="list-group-item"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdYdv-79wXl1Se2GI-598bRueRQ57Bkzoztcus0qdslKkRZrQ/viewform" target="_blank">ミニテスト</a> - 理解度確認テスト（12問択一）</li>
-    </ul>
+        <div class="column is-5">
+          <h2 class="title is-3 mb-5">資料</h2>
+          <a href="slides.html" target="_blank" class="box material-box mb-4">
+            <div class="is-flex is-justify-content-space-between is-align-items-center">
+              <div>
+                <p class="title is-5 mb-1">スライド</p>
+                <p class="has-text-grey is-size-7">レクチャー用スライド（ブラウザで閲覧）</p>
+              </div>
+              <span class="tag is-link is-light tag-format">HTML</span>
+            </div>
+          </a>
+          <a href="https://padlet.com/keisukekatsuki/padlet-mldp4vhhtbqjq5x3" target="_blank" class="box material-box mb-4">
+            <div class="is-flex is-justify-content-space-between is-align-items-center">
+              <div>
+                <p class="title is-5 mb-1">コメント・質問</p>
+                <p class="has-text-grey is-size-7">授業中の質問・コメントはこちら</p>
+              </div>
+              <span class="tag is-warning is-light tag-format">Padlet</span>
+            </div>
+          </a>
+          <a href="https://drive.google.com/drive/u/0/folders/1KBi90LLk4Ynd8u7Ms-Vpo-kUH-uqh6-P" target="_blank" class="box material-box mb-4">
+            <div class="is-flex is-justify-content-space-between is-align-items-center">
+              <div>
+                <p class="title is-5 mb-1">演習ワークシート</p>
+                <p class="has-text-grey is-size-7">チームで取り組むドメイン設計演習</p>
+              </div>
+              <span class="tag is-success is-light tag-format">Google Docs</span>
+            </div>
+          </a>
+          <a href="checklist.html" target="_blank" class="box material-box mb-4">
+            <div class="is-flex is-justify-content-space-between is-align-items-center">
+              <div>
+                <p class="title is-5 mb-1">ドメイン管理チェックリスト</p>
+                <p class="has-text-grey is-size-7">取得後の運用で確認すべき項目</p>
+              </div>
+              <span class="tag is-link is-light tag-format">HTML</span>
+            </div>
+          </a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdYdv-79wXl1Se2GI-598bRueRQ57Bkzoztcus0qdslKkRZrQ/viewform" target="_blank" class="box material-box">
+            <div class="is-flex is-justify-content-space-between is-align-items-center">
+              <div>
+                <p class="title is-5 mb-1">ミニテスト</p>
+                <p class="has-text-grey is-size-7">理解度確認テスト（12問択一）</p>
+              </div>
+              <span class="tag is-danger is-light tag-format">Google Forms</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <h2>参考リンク</h2>
+  <section class="section has-background-light">
+    <div class="container">
+      <h2 class="title is-3 mb-6">参考リンク</h2>
 
-    <h3>ドメイン失効・悪用事例</h3>
-    <ul>
-      <li><a href="https://www.agara.co.jp/article/326964" target="_blank">和歌山県のGo Toイート　ドメインが「パパ活」サイトに流用、知事謝罪</a>（紀伊民報AGARA）</li>
-      <li><a href="https://scan.netsecurity.ne.jp/article/2024/01/23/50483.html" target="_blank">島根県が使用していたドメインを第三者が取得、GoToEatキャンペーンやスモウルビー・プログラミング甲子園ほか</a>（ScanNetSecurity）</li>
-      <li><a href="https://www.pref.aichi.jp/soshiki/startup/stationai20250930.html" target="_blank">スタートアップ推進課が廃止したドメイン名の第三者による取得について</a>（愛知県）</li>
-      <li><a href="https://www.asahi.com/articles/ASR69655RR69PIHB011.html" target="_blank">水族館サイトかと思いきや…オンラインカジノへ誘導　3年前から開設</a>（朝日新聞・須磨海浜水族園）</li>
-      <li><a href="https://www.itmedia.co.jp/news/articles/2507/02/news058.html" target="_blank">「アトレカード」のQRコード読み込むと「不正なサイト」に</a>（ITmedia NEWS）</li>
-      <li><a href="https://www.jrepoint.jp/information/jrepoint-office/20250730001" target="_blank">旧アトレカードをご利用のお客さまへ</a>（JRE POINT）</li>
-      <li><a href="https://internet.watch.impress.co.jp/docs/news/1191415.html" target="_blank">入札殺到した「サークルK・サンクス」の中古ドメイン名、6000万円超で落札される結果に</a>（INTERNET Watch）</li>
-      <li><a href="https://speakerdeck.com/mikit/domeinming-nozhong-huo-nituite-jpaawg-7th" target="_blank">ドメイン名の終活について - JPAAWG 7th</a>（Speaker Deck）</li>
-    </ul>
+      <div class="columns is-multiline">
+        <div class="column is-6">
+          <div class="box">
+            <h3 class="title is-5 mb-4">ドメイン失効・悪用事例</h3>
+            <div class="content">
+              <ul>
+                <li><a href="https://www.agara.co.jp/article/326964" target="_blank">和歌山県のGo Toイート　ドメインが「パパ活」サイトに流用</a><br><small class="has-text-grey">紀伊民報AGARA</small></li>
+                <li><a href="https://scan.netsecurity.ne.jp/article/2024/01/23/50483.html" target="_blank">島根県が使用していたドメインを第三者が取得</a><br><small class="has-text-grey">ScanNetSecurity</small></li>
+                <li><a href="https://www.pref.aichi.jp/soshiki/startup/stationai20250930.html" target="_blank">スタートアップ推進課が廃止したドメイン名の第三者による取得</a><br><small class="has-text-grey">愛知県</small></li>
+                <li><a href="https://www.asahi.com/articles/ASR69655RR69PIHB011.html" target="_blank">水族館サイトかと思いきや…オンラインカジノへ誘導</a><br><small class="has-text-grey">朝日新聞（須磨海浜水族園）</small></li>
+                <li><a href="https://www.itmedia.co.jp/news/articles/2507/02/news058.html" target="_blank">「アトレカード」のQRコード読み込むと「不正なサイト」に</a><br><small class="has-text-grey">ITmedia NEWS</small></li>
+                <li><a href="https://www.jrepoint.jp/information/jrepoint-office/20250730001" target="_blank">旧アトレカードをご利用のお客さまへ</a><br><small class="has-text-grey">JRE POINT</small></li>
+                <li><a href="https://internet.watch.impress.co.jp/docs/news/1191415.html" target="_blank">「サークルK・サンクス」の中古ドメイン名、6000万円超で落札</a><br><small class="has-text-grey">INTERNET Watch</small></li>
+                <li><a href="https://speakerdeck.com/mikit/domeinming-nozhong-huo-nituite-jpaawg-7th" target="_blank">ドメイン名の終活について</a><br><small class="has-text-grey">Speaker Deck</small></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-    <h3>ドメイン管理・レジストラ</h3>
-    <ul>
-      <li><a href="https://domain.sakura.ad.jp/specification/" target="_blank">さくらのドメイン 価格一覧</a>（さくらインターネット）</li>
-      <li><a href="https://www.onamae.com/service/d-price/" target="_blank">お名前.com 料金一覧</a>（お名前.com）</li>
-      <li><a href="https://faq.sakura.ad.jp/s/article/000001195" target="_blank">有効期限が切れた（失効した）ドメインは復活できますか</a>（さくらのサポート情報）</li>
-      <li><a href="https://lookup.icann.org/" target="_blank">ICANN Lookup（Whois検索）</a>（ICANN）</li>
-      <li><a href="https://www.value-domain.com/" target="_blank">バリュードメイン</a>（GMOデジロック）</li>
-      <li><a href="https://www.gonbei.jp/" target="_blank">ゴンベエドメイン</a>（インターリンク）</li>
-      <li><a href="https://domains.squarespace.com/" target="_blank">Squarespace Domains（旧Google Domains）</a>（Squarespace）</li>
-      <li><a href="https://www.cloudflare.com/products/registrar/" target="_blank">Cloudflare Registrar</a>（Cloudflare）</li>
-    </ul>
+        <div class="column is-6">
+          <div class="box">
+            <h3 class="title is-5 mb-4">ドメイン管理・レジストラ</h3>
+            <div class="content">
+              <ul>
+                <li><a href="https://domain.sakura.ad.jp/specification/" target="_blank">さくらのドメイン 価格一覧</a><br><small class="has-text-grey">さくらインターネット</small></li>
+                <li><a href="https://www.onamae.com/service/d-price/" target="_blank">お名前.com 料金一覧</a><br><small class="has-text-grey">お名前.com</small></li>
+                <li><a href="https://faq.sakura.ad.jp/s/article/000001195" target="_blank">有効期限が切れたドメインは復活できますか</a><br><small class="has-text-grey">さくらのサポート情報</small></li>
+                <li><a href="https://lookup.icann.org/" target="_blank">ICANN Lookup（Whois検索）</a><br><small class="has-text-grey">ICANN</small></li>
+                <li><a href="https://www.value-domain.com/" target="_blank">バリュードメイン</a><br><small class="has-text-grey">GMOデジロック</small></li>
+                <li><a href="https://www.gonbei.jp/" target="_blank">ゴンベエドメイン</a><br><small class="has-text-grey">インターリンク</small></li>
+                <li><a href="https://domains.squarespace.com/" target="_blank">Squarespace Domains（旧Google Domains）</a><br><small class="has-text-grey">Squarespace</small></li>
+                <li><a href="https://www.cloudflare.com/products/registrar/" target="_blank">Cloudflare Registrar</a><br><small class="has-text-grey">Cloudflare</small></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-    <h3>ドメイン・DNS基礎知識</h3>
-    <ul>
-      <li><a href="https://jprs.jp/about/domains/jp-domain/" target="_blank">JPドメイン名の種類と登録要件</a>（JPRS）</li>
-      <li><a href="https://www.iana.org/domains/root/db" target="_blank">Root Zone Database（全TLD一覧）</a>（IANA）</li>
-      <li><a href="https://jprs.jp/" target="_blank">JPRS（日本レジストリサービス）公式サイト</a>（JPRS）</li>
-      <li><a href="https://www.icann.org/" target="_blank">ICANN公式サイト</a>（ICANN）</li>
-      <li><a href="https://www.nic.ad.jp/" target="_blank">JPNIC（日本ネットワークインフォメーションセンター）</a>（JPNIC）</li>
-      <li><a href="https://www.nic.ad.jp/ja/dom/basics.html" target="_blank">ドメイン名の基礎知識</a>（JPNIC）</li>
-    </ul>
+        <div class="column is-6">
+          <div class="box">
+            <h3 class="title is-5 mb-4">ドメイン・DNS基礎知識</h3>
+            <div class="content">
+              <ul>
+                <li><a href="https://jprs.jp/about/domains/jp-domain/" target="_blank">JPドメイン名の種類と登録要件</a><br><small class="has-text-grey">JPRS</small></li>
+                <li><a href="https://www.iana.org/domains/root/db" target="_blank">Root Zone Database（全TLD一覧）</a><br><small class="has-text-grey">IANA</small></li>
+                <li><a href="https://jprs.jp/" target="_blank">JPRS公式サイト</a><br><small class="has-text-grey">日本レジストリサービス</small></li>
+                <li><a href="https://www.icann.org/" target="_blank">ICANN公式サイト</a><br><small class="has-text-grey">ICANN</small></li>
+                <li><a href="https://www.nic.ad.jp/" target="_blank">JPNIC</a><br><small class="has-text-grey">日本ネットワークインフォメーションセンター</small></li>
+                <li><a href="https://www.nic.ad.jp/ja/dom/basics.html" target="_blank">ドメイン名の基礎知識</a><br><small class="has-text-grey">JPNIC</small></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-    <h3>商標・知財関連</h3>
-    <ul>
-      <li><a href="https://www.j-platpat.inpit.go.jp/" target="_blank">J-PlatPat（特許情報プラットフォーム）</a>（INPIT）</li>
-      <li><a href="https://www.jpo.go.jp/system/trademark/index.html" target="_blank">商標制度の概要</a>（特許庁）</li>
-      <li><a href="https://www.nic.ad.jp/ja/drp/" target="_blank">JPドメイン名紛争処理方針（JP-DRP）</a>（JPNIC）</li>
-      <li><a href="https://www.wipo.int/amc/en/domains/" target="_blank">WIPO ドメイン名紛争解決</a>（WIPO）</li>
-      <li><a href="https://www.ip-trademark.jp/" target="_blank">商標登録ドットコム</a>（商標実務の解説サイト）</li>
-    </ul>
+        <div class="column is-6">
+          <div class="box">
+            <h3 class="title is-5 mb-4">商標・知財関連</h3>
+            <div class="content">
+              <ul>
+                <li><a href="https://www.j-platpat.inpit.go.jp/" target="_blank">J-PlatPat（特許情報プラットフォーム）</a><br><small class="has-text-grey">INPIT</small></li>
+                <li><a href="https://www.jpo.go.jp/system/trademark/index.html" target="_blank">商標制度の概要</a><br><small class="has-text-grey">特許庁</small></li>
+                <li><a href="https://www.nic.ad.jp/ja/drp/" target="_blank">JPドメイン名紛争処理方針（JP-DRP）</a><br><small class="has-text-grey">JPNIC</small></li>
+                <li><a href="https://www.wipo.int/amc/en/domains/" target="_blank">WIPO ドメイン名紛争解決</a><br><small class="has-text-grey">WIPO</small></li>
+                <li><a href="https://www.ip-trademark.jp/" target="_blank">商標登録ドットコム</a><br><small class="has-text-grey">商標実務の解説サイト</small></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-    <h3>スタートアップ事例（J-Startup KANSAI選定企業）</h3>
-    <ul>
-      <li><a href="https://www.kansai.meti.go.jp/3-3shinki/Startup/J-Startup/startup-kansai.html" target="_blank">J-Startup KANSAI</a>（近畿経済産業局）</li>
-      <li><a href="https://www.kansai.meti.go.jp/3-3shinki/Startup/J-Startup/startup-kansai-startup.html" target="_blank">J-Startup KANSAI 選定企業一覧</a>（近畿経済産業局）</li>
-      <li><a href="https://sagri.tokyo/" target="_blank">サグリ</a>（衛星データ×AIで農業DX）</li>
-      <li><a href="https://regional.fish/" target="_blank">リージョナルフィッシュ</a>（ゲノム編集で養殖魚の品種改良）</li>
-      <li><a href="https://kyotofusioneering.com/" target="_blank">京都フュージョニアリング</a>（核融合発電プラント技術）</li>
-      <li><a href="https://www.mirairo.co.jp/" target="_blank">ミライロ</a>（ユニバーサルデザインのコンサル）</li>
-      <li><a href="https://www.acall.inc/" target="_blank">ACALL</a>（オフィス／ワークプレイス向けSaaS）</li>
-      <li><a href="https://www.osaka-heat-cool.com/" target="_blank">大阪ヒートクール</a>（産業向けの冷却・熱制御技術）</li>
-      <li><a href="https://hutzper.com/" target="_blank">フツパー</a>（製造業向けAI）</li>
-      <li><a href="https://neton.co.jp/" target="_blank">ネットオン</a>（採用・人材領域のサービス）</li>
-    </ul>
+        <div class="column is-6">
+          <div class="box">
+            <h3 class="title is-5 mb-4">スタートアップ事例（J-Startup KANSAI）</h3>
+            <div class="content">
+              <ul>
+                <li><a href="https://www.kansai.meti.go.jp/3-3shinki/Startup/J-Startup/startup-kansai.html" target="_blank">J-Startup KANSAI</a><br><small class="has-text-grey">近畿経済産業局</small></li>
+                <li><a href="https://sagri.tokyo/" target="_blank">サグリ</a><br><small class="has-text-grey">衛星データ×AIで農業DX</small></li>
+                <li><a href="https://regional.fish/" target="_blank">リージョナルフィッシュ</a><br><small class="has-text-grey">ゲノム編集で養殖魚の品種改良</small></li>
+                <li><a href="https://kyotofusioneering.com/" target="_blank">京都フュージョニアリング</a><br><small class="has-text-grey">核融合発電プラント技術</small></li>
+                <li><a href="https://www.mirairo.co.jp/" target="_blank">ミライロ</a><br><small class="has-text-grey">ユニバーサルデザインのコンサル</small></li>
+                <li><a href="https://www.acall.inc/" target="_blank">ACALL</a><br><small class="has-text-grey">オフィス／ワークプレイス向けSaaS</small></li>
+                <li><a href="https://hutzper.com/" target="_blank">フツパー</a><br><small class="has-text-grey">製造業向けAI</small></li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-    <h3>スタートアップ・ドメイン設計の参考</h3>
-    <ul>
-      <li><a href="https://www.j-startup.go.jp/" target="_blank">J-Startup</a>（経済産業省）</li>
-      <li><a href="https://startup-db.com/" target="_blank">STARTUP DB</a>（国内スタートアップデータベース）</li>
-      <li><a href="https://initial.inc/" target="_blank">INITIAL</a>（スタートアップ情報プラットフォーム）</li>
-    </ul>
-  </div>
+        <div class="column is-6">
+          <div class="box">
+            <h3 class="title is-5 mb-4">スタートアップ・ドメイン設計の参考</h3>
+            <div class="content">
+              <ul>
+                <li><a href="https://www.j-startup.go.jp/" target="_blank">J-Startup</a><br><small class="has-text-grey">経済産業省</small></li>
+                <li><a href="https://startup-db.com/" target="_blank">STARTUP DB</a><br><small class="has-text-grey">国内スタートアップデータベース</small></li>
+                <li><a href="https://initial.inc/" target="_blank">INITIAL</a><br><small class="has-text-grey">スタートアップ情報プラットフォーム</small></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>大阪工業大学 知的財産学部 PBL「コンテンツ知的財産探求」2025</p>
+    </div>
+  </footer>
 </body>
 </html>
