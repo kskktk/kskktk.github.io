@@ -4,129 +4,79 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ドメイン実務 | 大阪工業大学 PBL</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
-      background: #fff;
-      color: #222;
-      line-height: 1.8;
-    }
-    main {
-      max-width: 640px;
-      margin: 0 auto;
-      padding: 60px 24px 80px;
-    }
-    header {
-      margin-bottom: 48px;
-      padding-bottom: 32px;
-      border-bottom: 1px solid #ddd;
-    }
-    h1 {
-      font-size: 22px;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-    .meta {
-      font-size: 14px;
-      color: #666;
-    }
-    section {
-      margin-bottom: 40px;
-    }
-    h2 {
-      font-size: 14px;
-      font-weight: 600;
-      color: #888;
-      margin-bottom: 16px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid #eee;
-    }
-    ul {
-      list-style: none;
-    }
-    li {
-      padding: 8px 0;
-      border-bottom: 1px solid #f0f0f0;
-    }
-    li:last-child {
-      border-bottom: none;
-    }
-    a {
-      color: #222;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .time {
-      display: inline-block;
-      width: 56px;
-      color: #888;
-      font-size: 14px;
-    }
-    .tag {
-      font-size: 12px;
-      color: #888;
-      margin-left: 8px;
-    }
-    .muted {
-      color: #aaa;
-    }
-    @media (max-width: 480px) {
-      main { padding: 40px 16px 60px; }
-      h1 { font-size: 18px; }
-    }
-  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-  <main>
-    <header>
-      <h1>知的財産分野から考えるドメイン実務</h1>
-      <p class="meta">大阪工業大学 知的財産学部 PBL「コンテンツ知的財産探求」</p>
-    </header>
+  <div class="container py-5">
+    <h1 class="mb-2">知的財産分野から考えるドメイン実務</h1>
+    <p class="text-muted mb-5">大阪工業大学 知的財産学部 PBL「コンテンツ知的財産探求」</p>
 
-    <section>
-      <h2>スケジュール</h2>
-      <ul>
-        <li><span class="time">13:30</span>オープニング</li>
-        <li><span class="time">13:40</span>学生自己紹介</li>
-        <li><span class="time">13:55</span>講師自己紹介</li>
-        <li><span class="time">14:25</span>価値観カード</li>
-        <li><span class="time">14:45</span><span class="muted">休憩</span></li>
-        <li><span class="time">14:55</span>レクチャー</li>
-        <li><span class="time">15:35</span>演習</li>
-        <li><span class="time">16:20</span>発表・共有</li>
-        <li><span class="time">16:35</span>まとめ</li>
-      </ul>
+    <section class="mb-5">
+      <h2 class="h5 mb-3">Schedule</h2>
+      <table class="table">
+        <tbody>
+          <tr><td class="text-muted" style="width:100px">13:30</td><td>オープニング</td></tr>
+          <tr><td class="text-muted">13:40</td><td>学生自己紹介</td></tr>
+          <tr><td class="text-muted">13:55</td><td>講師自己紹介</td></tr>
+          <tr><td class="text-muted">14:25</td><td>価値観カード（チーム形成）</td></tr>
+          <tr><td class="text-muted">14:45</td><td class="text-muted">休憩</td></tr>
+          <tr><td class="text-muted">14:55</td><td>レクチャー：ドメイン基礎</td></tr>
+          <tr><td class="text-muted">15:35</td><td>演習：ドメイン設計</td></tr>
+          <tr><td class="text-muted">16:20</td><td>発表・共有</td></tr>
+          <tr><td class="text-muted">16:35</td><td>まとめ・ミニテスト</td></tr>
+        </tbody>
+      </table>
     </section>
 
-    <section>
-      <h2>教材</h2>
-      <ul>
-        <li><a href="slides.html" target="_blank">スライド<span class="tag">HTML</span></a></li>
-        <li><a href="https://padlet.com/keisukekatsuki/padlet-mldp4vhhtbqjq5x3" target="_blank">コメント・質問<span class="tag">Padlet</span></a></li>
-        <li><a href="https://drive.google.com/drive/u/0/folders/1KBi90LLk4Ynd8u7Ms-Vpo-kUH-uqh6-P" target="_blank">演習ワークシート<span class="tag">Google Drive</span></a></li>
-        <li><a href="checklist.html" target="_blank">ドメイン管理チェックリスト<span class="tag">HTML</span></a></li>
-        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdYdv-79wXl1Se2GI-598bRueRQ57Bkzoztcus0qdslKkRZrQ/viewform" target="_blank">ミニテスト<span class="tag">Google Forms</span></a></li>
-      </ul>
+    <section class="mb-5">
+      <h2 class="h5 mb-3">Materials</h2>
+      <div class="list-group">
+        <a href="slides.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" target="_blank">
+          <strong>スライド</strong>
+          <span class="badge bg-secondary">HTML</span>
+        </a>
+        <a href="https://padlet.com/keisukekatsuki/padlet-mldp4vhhtbqjq5x3" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" target="_blank">
+          <strong>コメント・質問</strong>
+          <span class="badge bg-secondary">Padlet</span>
+        </a>
+        <a href="https://drive.google.com/drive/u/0/folders/1KBi90LLk4Ynd8u7Ms-Vpo-kUH-uqh6-P" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" target="_blank">
+          <strong>演習ワークシート</strong>
+          <span class="badge bg-secondary">Google Drive</span>
+        </a>
+        <a href="checklist.html" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" target="_blank">
+          <strong>ドメイン管理チェックリスト</strong>
+          <span class="badge bg-secondary">HTML</span>
+        </a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdYdv-79wXl1Se2GI-598bRueRQ57Bkzoztcus0qdslKkRZrQ/viewform" class="list-group-item list-group-item-action d-flex justify-content-between align-items-center" target="_blank">
+          <strong>ミニテスト</strong>
+          <span class="badge bg-secondary">Google Forms</span>
+        </a>
+      </div>
     </section>
 
-    <section>
-      <h2>参考リンク</h2>
-      <ul>
-        <li><a href="https://www.agara.co.jp/article/326964" target="_blank">和歌山県GoToイート事例</a></li>
-        <li><a href="https://www.itmedia.co.jp/news/articles/2507/02/news058.html" target="_blank">アトレカード事例</a></li>
-        <li><a href="https://internet.watch.impress.co.jp/docs/news/1191415.html" target="_blank">サークルKサンクス事例</a></li>
-        <li><a href="https://speakerdeck.com/mikit/domeinming-nozhong-huo-nituite-jpaawg-7th" target="_blank">ドメイン名の終活</a></li>
-        <li><a href="https://domain.sakura.ad.jp/specification/" target="_blank">さくらのドメイン</a></li>
-        <li><a href="https://www.onamae.com/service/d-price/" target="_blank">お名前.com</a></li>
-        <li><a href="https://lookup.icann.org/" target="_blank">ICANN Lookup</a></li>
-        <li><a href="https://www.iana.org/domains/root/db" target="_blank">Root Zone Database</a></li>
-        <li><a href="https://www.j-platpat.inpit.go.jp/" target="_blank">J-PlatPat</a></li>
-        <li><a href="https://jprs.jp/" target="_blank">JPRS</a></li>
-      </ul>
+    <section class="mb-5">
+      <h2 class="h5 mb-3">Reference</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="https://www.agara.co.jp/article/326964" target="_blank">和歌山県GoToイート事例</a></li>
+            <li class="mb-2"><a href="https://www.itmedia.co.jp/news/articles/2507/02/news058.html" target="_blank">アトレカード事例</a></li>
+            <li class="mb-2"><a href="https://internet.watch.impress.co.jp/docs/news/1191415.html" target="_blank">サークルKサンクス事例</a></li>
+            <li class="mb-2"><a href="https://speakerdeck.com/mikit/domeinming-nozhong-huo-nituite-jpaawg-7th" target="_blank">ドメイン名の終活</a></li>
+            <li class="mb-2"><a href="https://domain.sakura.ad.jp/specification/" target="_blank">さくらのドメイン</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="https://www.onamae.com/service/d-price/" target="_blank">お名前.com</a></li>
+            <li class="mb-2"><a href="https://lookup.icann.org/" target="_blank">ICANN Lookup</a></li>
+            <li class="mb-2"><a href="https://www.iana.org/domains/root/db" target="_blank">Root Zone Database</a></li>
+            <li class="mb-2"><a href="https://www.j-platpat.inpit.go.jp/" target="_blank">J-PlatPat</a></li>
+            <li class="mb-2"><a href="https://jprs.jp/" target="_blank">JPRS</a></li>
+          </ul>
+        </div>
+      </div>
     </section>
-  </main>
+  </div>
 </body>
 </html>
