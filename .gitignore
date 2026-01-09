@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Build files
+*.pdf
+export-pdf.*
+package*.json
+
+# Source files (keep only HTML for deployment)
+*.md
+*.txt
+
+# IDE / System
+.DS_Store
+*.log
+.claude/
+
+# Student data
+student/
+*.docx
